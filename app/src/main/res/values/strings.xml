@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CarPooling</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_select_choice">SelectChoiceActivity</string>
+    <string name="title_activity_caring_first_registration">CaringFirstRegistrationActivity</string>
+    <string name="title_activity_caring_second_registration">CaringSecondRegistrationActivity</string>
+    <string name="title_activity_sharing_registration">SharingRegistrationActivity</string>
+    <string name="title_activity_caring_list">CaringListActivity</string>
+    <string name="selectVehicle">Select Type</string>
+    <string name="selectPlace">selectPlace</string>
+
+
+    <string-array name="vehicle_type_array">
+        <item>Car</item>
+        <item>Bike</item>
+    </string-array>
+
+    <string-array name="select_place_array">
+        <item>JayaNagar</item>
+        <item>Marathalli</item>
+        <item>BTM</item>
+    </string-array>
+
+</resources>

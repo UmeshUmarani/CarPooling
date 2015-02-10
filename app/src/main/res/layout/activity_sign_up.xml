@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:baselineAligned="false"
+    android:weightSum="1">
+
+    <TextView android:layout_width="306dp"
+        android:layout_height="0dp"
+        android:text="Register here!!"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="30dip"
+        android:textSize="30sp"
+        android:focusable="true"
+        android:layout_weight="0.16"
+        />
+
+
+    <!-- Input Name -->
+    <EditText android:id="@+id/inputUserid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:hint="User ID"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"/>
+
+    <EditText android:id="@+id/inputfirstName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:hint="First Name"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"/>
+
+    <EditText android:id="@+id/inputlastName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:hint="Last Name"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"/>
+
+    <EditText android:id="@+id/confirmPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:hint="Password"
+        android:password="true"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"/>
+
+    <EditText android:id="@+id/inputDept"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:hint="Dept"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"/>
+
+    <EditText android:id="@+id/inputPhone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:hint="Phone"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"/>
+
+    <EditText android:id="@+id/inputEmailId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:hint="Email id"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button android:id="@+id/loginUser"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:layout_marginTop="35dip"/>
+
+        <Button android:id="@+id/signUpUser"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_marginTop="35dip"/>
+
+        </LinearLayout>
+
+
+
+
+</LinearLayout>

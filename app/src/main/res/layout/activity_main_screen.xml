@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:baselineAligned="false"
+    android:weightSum="1">
+
+    <TextView android:layout_width="306dp"
+        android:layout_height="10dp"
+        android:text="Car For Share"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="130dip"
+        android:textSize="30sp"
+        android:focusable="true"
+        android:layout_weight="0.31"
+        />
+
+    <!-- Input Name -->
+    <EditText android:id="@+id/inputUserid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:hint="User ID"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"/>
+
+    <EditText android:id="@+id/inputPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:hint="password"
+        android:password="true"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"/>
+
+    <NumberPicker
+        android:id="@+id/numberPicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignBaseline="@+id/textView6"/>
+
+    <!--  Welcome screen with Two buttons -->
+    <Button android:id="@+id/loginUser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="35dip"/>
+
+    <Button android:id="@+id/signUpUser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_marginTop="35dip"/>
+
+</LinearLayout>
