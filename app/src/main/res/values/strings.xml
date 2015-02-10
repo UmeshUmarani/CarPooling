@@ -13,16 +13,16 @@
     <string name="selectVehicle">Select Type</string>
     <string name="selectPlace">selectPlace</string>
 
-
     <string-array name="vehicle_type_array">
         <item>Car</item>
         <item>Bike</item>
     </string-array>
-
     <string-array name="select_place_array">
         <item>JayaNagar</item>
         <item>Marathalli</item>
         <item>BTM</item>
     </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
