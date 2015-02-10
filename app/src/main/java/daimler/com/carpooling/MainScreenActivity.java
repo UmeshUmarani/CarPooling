@@ -1,5 +1,6 @@
 package daimler.com.carpooling;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -20,6 +21,28 @@ public class MainScreenActivity extends ActionBarActivity {
 
         loginUser = (Button) findViewById(R.id.loginUser);
         signUpUser = (Button) findViewById(R.id.signUpUser);
+
+        loginUser.setOnClickListener(new View.OnClickListener() {
+
+                    @Override
+                    public void onClick(View view) {
+
+        Intent i = new Intent(getApplicationContext(), SelectChoiceActivity.class);
+                        startActivity(i);
+
+                    }
+                });
+
+        signUpUser.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+
+                Intent i = new Intent(getApplicationContext(), SignUpActivity.class);
+                startActivity(i);
+
+            }
+        });
     }
 
 
